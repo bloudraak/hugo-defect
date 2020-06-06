@@ -11,7 +11,11 @@
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://example.org/page1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/page2/</loc>
   </url>
   
   <url>
