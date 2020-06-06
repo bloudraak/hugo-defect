@@ -1,6 +1,6 @@
 # Hugo 
 
-This repo simply shows that having a `baseof.html` in the `layouts/_default` directory doesn't transform the `index.md`, `page1.md` or `page2.md` in the `content` directory to `html`.
+This repo simply shows that having a `baseof.html` and `single.html`in the `layouts/_default` directory transforms `index.md` to html, but not `page1.md` or `page2.md` in the `content` directory to `html`.
 
 ## Version
 
@@ -13,14 +13,13 @@ Hugo Static Site Generator v0.72.0/extended darwin/amd64 BuildDate: unknown
 
 ```
 $ hugo
-Building sites … WARN 2020/06/06 11:13:26 found no layout file for "HTML" for kind "taxonomyTerm": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-WARN 2020/06/06 11:13:26 found no layout file for "HTML" for kind "taxonomyTerm": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-WARN 2020/06/06 11:13:26 found no layout file for "HTML" for kind "page": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-WARN 2020/06/06 11:13:26 found no layout file for "HTML" for kind "home": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+Building sites … WARN 2020/06/06 11:21:00 found no layout file for "HTML" for kind "home": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2020/06/06 11:21:00 found no layout file for "HTML" for kind "taxonomyTerm": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2020/06/06 11:21:00 found no layout file for "HTML" for kind "taxonomyTerm": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 
                    | EN  
 -------------------+-----
-  Pages            |  5  
+  Pages            |  6  
   Paginator pages  |  0  
   Non-page files   |  0  
   Static files     |  0  
@@ -29,5 +28,5 @@ WARN 2020/06/06 11:13:26 found no layout file for "HTML" for kind "home": You sh
   Sitemaps         |  1  
   Cleaned          |  0  
 
-Total in 9 ms
+Total in 10 ms
 ```
